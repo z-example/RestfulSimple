@@ -1,7 +1,7 @@
 #启动应用
 
 ##默认配置
-java -java   RestfulSimple.jar
+java -jar   RestfulSimple.jar
 
 ##设置变量
 java -jar RestfulSimple.jar --spring.application.json='{"foo":"bar"}'
