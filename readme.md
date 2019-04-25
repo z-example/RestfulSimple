@@ -1,12 +1,12 @@
-#启动应用
+# 启动应用
 
-##默认配置
+## 默认配置
 java -jar   RestfulSimple.jar
 
-##设置变量
+## 设置变量
 java -jar RestfulSimple.jar --spring.application.json='{"foo":"bar"}'
 
-##设置配置文件
+## 设置配置文件
 java -jar RestfulSimple.jar --spring.config.name=application_dev.properties
 
 OR
